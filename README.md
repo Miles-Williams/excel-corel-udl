@@ -8,3 +8,7 @@ Automates the task of drawing up files to be used for laser etching UDL's (Ultra
 UDL's are used as serial number labels on products as they are extremely difficult to tamper with.
 
 This Excel/Corel automation gives the option of creating the drawing from a column of values, either created or pasted into the document, or by providing a start and end serial number.
+
+A CorelDRAW X6 file named "UDL_TEST.cdr" is included. This is required, or a CorelDRAW file with a Layer named "Main", a rectangle of size 20mm by 5mm name "Rect1", and artistic text named "Text1" with the string "X".
+
+Sizes and file locataion can be changed in the Public Variables module.
