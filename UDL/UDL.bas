@@ -117,8 +117,9 @@ End Sub
 
 Sub InitCorel()
 
-    Set corel = CreateObject("CorelDraw.Application.16")
-    Set doc = corel.OpenDocument("C:\Users\wau9917\Documents\IDENTIFICATION FOLDER\LASER TEMPLATES\__MAIN TEMPLATES\UDL_TEST.cdr")
+    Set corel = CreateObject(corelApp)
+    Set doc = corel.OpenDocument(corelDoc)
+    
     doc.Activate
     doc.Unit = cdrMillimeter
     doc.ReferencePoint = cdrTopLeft

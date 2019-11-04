@@ -13,6 +13,9 @@ Public Const startY As Double = 450
 Public Const redHex As String = "FF0000"
 Public Const greenHex As String = "00FF00"
 
+Public Const corelApp As String = "CorelDraw.Application.16"
+Public Const corelDoc As String = "C:\Users\wau9917\Documents\IDENTIFICATION FOLDER\LASER TEMPLATES\__MAIN TEMPLATES\UDL_TEST.cdr"
+
 Public sel As Range
 Public top As Range
 
